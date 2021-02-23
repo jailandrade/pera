@@ -1,0 +1,46 @@
+/* Articles */
+body {
+	font-size: calc(2 * var(--font-size));
+	font-family: var(--fonts-sans-serif);
+	line-height: calc(2 * var(--padding));
+	color: var(--color-smoky-black);
+	background-color: var(--color-white-smoke);
+}
+
+/* Maybe I change this later, still WIP */
+.page {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 3rem;
+}
+
+.article {
+	margin: calc(4 * var(--margin));
+	padding: calc(2.5 * var(--padding));
+	background-color: var(--color-white);
+	border-radius: 4px;
+}
+
+.article-left .title,
+.article-right .title {
+	text-align: center;
+}
+
+.article-left .article-container{
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: var(--padding)
+}
+
+.article-right .article-container{
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	gap: var(--padding)
+}
+
+.article .footer {
+	text-align: center;
+}

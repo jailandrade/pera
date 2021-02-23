@@ -1,0 +1,17 @@
+:root {
+	--fonts-serif: 'Times New Roman', 'Garamound', 'Georgia', 'Palatino';
+	--fonts-sans-serif: 'Helvetica', 'Arial', 'Futura', 'Gadget', 'Lucida Grande', 'Verdana';
+	--fonts-monospace: 'Lucida Console', 'Monaco', monospace;
+
+	--font-size: 10px;
+	
+	--padding: 1rem;
+	--margin: 1rem;
+
+	--color-smoky-black: #100c08;
+	--color-snow: #fffafa;
+	--color-white-smoke: #f5f5f5;
+	--color-white: #fff;
+
+	/* I need to figure out how to use better the custom properties */
+}
