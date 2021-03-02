@@ -1,7 +1,5 @@
 # Pera
 
-__Patterns Ethereals Realistic Awesome__
-
 HTML/CSS interface components.
 
 Inspired by [pea.rs](https://pea.rs)
@@ -15,7 +13,7 @@ In honor to my grandma.
 * Header
 * Footer
 * Table
-* Cards
+* Card
 * Grid
 * Forms
 * Buttons
@@ -39,3 +37,16 @@ In honor to my grandma.
 * Notification
 * Tooltip
 
+## Nomenclature or hierarchy description
+
+### Header
+
+### Card
+
+### Article
+
+The Article component follows this convention: 
+
+-- container (if had sidebars or nav)
+---- content
+------ inner (if the content has flex elements)

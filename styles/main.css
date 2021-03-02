@@ -17,30 +17,98 @@ body {
 	font-size: 3rem;
 }
 
-.article {
-	margin: calc(4 * var(--margin));
-	padding: calc(2.5 * var(--padding));
-	background-color: var(--color-white);
-	border-radius: 4px;
+.subtitle {
+	font-size: 2.4rem;
 }
 
-.article-left .title,
-.article-right .title {
+.article {
+	margin: var(--margin-article);
+	padding: var(--padding-article);
+	background-color: var(--color-white);
+	border-radius: var(--corner);
+	box-shadow: var(--shadow-02);
+}
+
+.article-title {
+	text-align: center;
+	margin-bottom: calc(4 * var(--margin));
+}
+
+.article-content {
+	/* 
+	This need a new approach
+	*/
+}
+
+.article-footer {
 	text-align: center;
 }
 
-.article-left .article-container{
+.article--left .article-container{
 	display: grid;
 	grid-template-columns: 200px 1fr;
 	gap: var(--padding)
 }
 
-.article-right .article-container{
+.article--right .article-container{
 	display: grid;
 	grid-template-columns: 1fr 200px;
 	gap: var(--padding)
 }
 
-.article .footer {
-	text-align: center;
+.article--center .article-container {
+	display: grid;
+	grid-template-columns: 200px 1fr 200px;
+	gap: var(--padding);
 }
+
+
+.article--two-columns .article-content {
+	display: unset;
+	columns: 2; 
+}
+
+.article--columns .article-content {
+	display: initial;
+	columns: var(--columns);
+}
+
+/* Grid rules */
+
+.grid {
+	display: grid;
+	margin: 2rem 0;
+}
+
+.col-3 {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.col-4 {
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+}
+
+.col-6 {
+	grid-template-columns: repeat(6, 1fr);
+	gap: 1rem;
+}
+
+/* Cards components */
+
+.card {
+	margin: var(--margin-card);
+	padding: var(--padding-card);
+	background-color: var(--color-white);
+	border-radius: var(--corner);
+	box-shadow: calc(2 * var(--shadow-02));
+	border-color: var(--border-color-02);
+}
+
+.card-header {
+	padding: 0 calc(1.5 * var(--padding-card));
+	border-bottom: 0.1rem solid var(--border-color-01);
+}
+
+

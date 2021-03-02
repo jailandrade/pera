@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<title>Article</title>
+		<title>Article | Pera</title>
 
 		<link rel="stylesheet" href="../styles/reset.css" />
 		<link rel="stylesheet" href="../styles/vars.css" />
@@ -14,10 +14,10 @@
 	<body>
 		<main class="page">
 			<article class="article">
-				<header>
-					<h1>Example of an article</h1>
+				<header class="header article-header">
+					<h1 class="title">Example of an basic article</h1>
 				</header>
-				<section>
+				<section class="article-content">
 					<!-- It seems now we is required use width and height  with picsum.photos -->
 					<img
 						src="https://picsum.photos/id/1060/300/300"
@@ -30,39 +30,52 @@
 						suscipit quas! Velit, nobis beatae.
 					</p>
 					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+						veritatis dicta minus!
+					</p>
+					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
 						facere sunt nisi assumenda, nihil similique impedit veniam
 						perspiciatis et! Perferendis.
 					</p>
 				</section>
 
-				<footer>
+				<footer class="footer article-footer">
 					<p>Lorem ipsum dolor sit.</p>
 				</footer>
 			</article>
-			<article class="article article-left">
-				<!-- we should have a content element -->
-				<header>
-					<h1>Example of an article</h1>
+
+			<article class="article article--left">
+				<header class="header article-header">
+					<h1 class="title">Example of an sidebar left article</h1>
 				</header>
 				<section class="article-container">
-					<nav class="sidebar">
-						<ul class="vertical-links">
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-						</ul>
-					</nav>
-					<section class="article-inner">
+					<aside>
+						<nav class="sidebar">
+							<ul class="vertical-links">
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+							</ul>
+						</nav>
+					</aside>
+
+					<section class="article-content">
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
 							perferendis reprehenderit neque corporis cupiditate natus iste
 							nobis accusantium veritatis, impedit sit, ab, facilis nemo
 							delectus suscipit quas! Velit, nobis beatae.
+						</p>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+							distinctio atque fuga nisi, deleniti ratione soluta mollitia
+							saepe. Asperiores repellendus dolore ea nulla quam consequatur
+							dolores quis iste commodi corrupti!
 						</p>
 						<p>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
@@ -86,69 +99,167 @@
 						</p>
 					</section>
 
-					<footer>
+					<footer class="footer article-footer">
 						<p>Lorem ipsum dolor sit.</p>
 					</footer>
 				</section>
 			</article>
 
-			<article class="article article-right">
-				<header>
-					<h1>Example of an article</h1>
+			<article class="article article--right">
+				<header class="header article-header">
+					<h1 class="title">Example of an sidebar right article</h1>
 				</header>
 				<section class="article-container">
-					<section class="article-inner">
+					<section class="article-content">
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
 							perferendis reprehenderit neque corporis cupiditate natus iste
 							nobis accusantium veritatis, impedit sit, ab, facilis nemo
 							delectus suscipit quas! Velit, nobis beatae.
 						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-							facere sunt nisi assumenda, nihil similique impedit veniam
-							perspiciatis et! Perferendis.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-							perferendis reprehenderit neque corporis cupiditate natus iste
-							nobis accusantium veritatis, impedit sit, ab, facilis nemo
-							delectus suscipit quas! Velit, nobis beatae.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-							facere sunt nisi assumenda, nihil similique impedit veniam
-							perspiciatis et! Perferendis.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-							perferendis reprehenderit neque corporis cupiditate natus iste
-							nobis accusantium veritatis, impedit sit, ab, facilis nemo
-							delectus suscipit quas! Velit, nobis beatae.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-							facere sunt nisi assumenda, nihil similique impedit veniam
-							perspiciatis et! Perferendis.
-						</p>
-						
-						<footer>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, ullam assumenda.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus at nisi hic voluptas eos, id incidunt eaque similique! Nulla dolore pariatur fuga, odio ipsam eius?</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, iure! Ea exercitationem, cumque culpa repudiandae iusto, quo voluptates eius sint eveniet laudantium maxime magnam! Pariatur!</p>	
+					</p>
+
+						<footer class="footer article-footer">
 							<p>Lorem ipsum dolor sit.</p>
 						</footer>
 					</section>
 
-					<nav class="sidebar">
-						<ul class="vertical-links">
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-							<li><a href="#">Interest Link</a></li>
-						</ul>
-					</nav>
+					<aside>
+						<nav class="sidebar">
+							<ul class="vertical-links">
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+							</ul>
+						</nav>
+					</aside>
 				</section>
+			</article>
+
+			<article class="article article--center">
+				<header class="header article-header">
+					<h1 class="title">Example of an article with two sidebars</h1>
+				</header>
+				<section class="article-container">
+					<aside>
+						<nav class="sidebar">
+							<ul class="vertical-links">
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+							</ul>
+						</nav>
+					</aside>
+					<section class="article-content">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+							perferendis reprehenderit neque corporis cupiditate natus iste
+							nobis accusantium veritatis, impedit sit, ab, facilis nemo
+							delectus suscipit quas! Velit, nobis beatae.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+							facere sunt nisi assumenda, nihil similique impedit veniam
+							perspiciatis et! Perferendis.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+							perferendis reprehenderit neque corporis cupiditate natus iste
+							nobis accusantium veritatis, impedit sit, ab, facilis nemo
+							delectus suscipit quas! Velit, nobis beatae.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+							facere sunt nisi assumenda, nihil similique impedit veniam
+							perspiciatis et! Perferendis.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+							perferendis reprehenderit neque corporis cupiditate natus iste
+							nobis accusantium veritatis, impedit sit, ab, facilis nemo
+							delectus suscipit quas! Velit, nobis beatae.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+							facere sunt nisi assumenda, nihil similique impedit veniam
+							perspiciatis et! Perferendis.
+						</p>
+
+						<footer class="footer article-footer">
+							<p>Lorem ipsum dolor sit.</p>
+						</footer>
+					</section>
+
+					<aside>
+						<nav class="sidebar">
+							<ul class="vertical-links">
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+								<li><a href="#">Interest Link</a></li>
+							</ul>
+						</nav>
+					</aside>
+				</section>
+			</article>
+
+			<article class="article article--two-columns">
+				<header class="header article-header">
+					<h1 class="title">Example of an article with two columns</h1>
+				</header>
+				<section class="article-content">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+						perferendis reprehenderit neque corporis cupiditate natus iste nobis
+						accusantium veritatis, impedit sit, ab, facilis nemo delectus
+						suscipit quas! Velit, nobis beatae.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+						facere sunt nisi assumenda, nihil similique impedit veniam
+						perspiciatis et! Perferendis.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+						aliquam sint reprehenderit in ducimus inventore quis eos! Repellat?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+						amet magnam delectus mollitia? Alias unde, officiis maxime optio
+						enim quia.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad magnam
+						nemo perspiciatis?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magni
+						vero at distinctio aliquam, sunt obcaecati quibusdam explicabo
+						consequatur minus sit!
+					</p>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						accusamus eum eius amet nobis esse nulla soluta optio.
+					</p>
+				</section>
+
+				<footer class="footer article-footer">
+					<p>Lorem ipsum dolor sit.</p>
+				</footer>
 			</article>
 		</main>
 	</body>
