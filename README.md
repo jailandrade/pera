@@ -41,7 +41,11 @@ In honor to my grandma.
 
 ### Header
 
-### Card
+### Footer
+
+### Nav
+
+### Grid
 
 ### Article
 
@@ -49,4 +53,24 @@ The Article component follows this convention:
 
 -- container (if had sidebars or nav)
 ---- content
------- inner (if the content has flex elements)
+------ inner (if had aditional elements inside the content)
+
+### Card
+
+-- container (if had thumbnail)
+---- content
+------ inner (if had aditional elements inside the content)
+
+### Form
+
+
+### Table
+
+
+### Lists
+
+
+### Links
+
+
+### Botones

@@ -12,3 +12,5 @@
 **Q.Can I submit a petition for a component?**
 *A. Yes. Open a PR*
 
+**Q. Are these components wireframes?**
+*A. Maybe, read the notes file*

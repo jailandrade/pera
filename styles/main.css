@@ -1,4 +1,4 @@
-/* Articles */
+
 body {
 	font-size: calc(2 * var(--font-size));
 	font-family: var(--fonts-sans-serif);
@@ -7,26 +7,36 @@ body {
 	background-color: var(--color-white-smoke);
 }
 
-/* Maybe I change this later, still WIP */
 .page {
 	width: 80%;
 	margin: 0 auto;
 }
 
-.title {
-	font-size: 3rem;
+.title,
+.heading1 {
+	font-size: var(--heading1);
 }
 
-.subtitle {
-	font-size: 2.4rem;
+.subtitle,
+.heading2 {
+	font-size: var(--heading2);
 }
 
+.heading3 {
+	font-size: var(--heading3);
+}
+
+.heading4 {
+	font-size: var(--heading4);
+}
+
+/* Styles for articles */
 .article {
 	margin: var(--margin-article);
 	padding: var(--padding-article);
 	background-color: var(--color-white);
 	border-radius: var(--corner);
-	box-shadow: var(--shadow-02);
+	box-shadow: var(--shadow2);
 }
 
 .article-title {
@@ -35,14 +45,20 @@ body {
 }
 
 .article-content {
-	/* 
-	This need a new approach
-	*/
 }
 
 .article-footer {
 	text-align: center;
 }
+
+.article-thumbnail {
+
+}
+
+.article-preview {
+
+}
+
 
 .article--left .article-container{
 	display: grid;
@@ -64,13 +80,13 @@ body {
 
 
 .article--two-columns .article-content {
-	display: unset;
-	columns: 2; 
+	display: block;
+	columns: 2;
 }
 
 .article--columns .article-content {
 	display: initial;
-	columns: var(--columns);
+	columns: var(--columns-default);
 }
 
 /* Grid rules */
@@ -82,17 +98,17 @@ body {
 
 .col-3 {
 	grid-template-columns: repeat(3, 1fr);
-	gap: 1rem;
+	gap: var(--padding);
 }
 
 .col-4 {
 	grid-template-columns: repeat(4, 1fr);
-	gap: 1rem;
+	gap: var(--padding);
 }
 
 .col-6 {
 	grid-template-columns: repeat(6, 1fr);
-	gap: 1rem;
+	gap: var(--padding);
 }
 
 /* Card's components */
@@ -102,8 +118,8 @@ body {
 	padding: var(--padding-card);
 	background-color: var(--color-white);
 	border-radius: var(--corner);
-	box-shadow: calc(2 * var(--shadow-02));
-	border-color: var(--border-color-02);
+	box-shadow: calc(2 * var(--shadow2));
+	border-color: var(--border-color2);
 }
 
 
@@ -114,10 +130,53 @@ body {
 
 .card-header {
 	padding: 0 calc(1.25 * var(--padding-card));
-	border-bottom: 0.1rem solid var(--border-color-01);
+	border-bottom: 0.1rem solid var(--border-color1);
 }
 
 .card-footer {
-	border-top: 0.1rem solid var(--border-color-01);
+	border-top: 0.1rem solid var(--border-color1);
 }
 
+.card-content {
+
+}
+
+
+.footer {
+
+}
+
+.header {
+
+}
+
+.table {
+
+}
+
+.form {
+	
+}
+
+
+.lists {
+	
+}
+
+.list-tags {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.list-tags li,
+.list-tags .item {
+	padding: 0.5rem 1rem;
+	background-color: var(--tag-background);
+	border: 1px solid var(--tag-border);
+	color: var(--tag-text);
+	margin-right: 0.5rem;
+	border-radius: 1rem;
+}
