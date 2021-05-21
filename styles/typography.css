@@ -1,0 +1,21 @@
+.title,
+.heading1 {
+	font-size: var(--heading1);
+}
+
+.subtitle,
+.heading2 {
+	font-size: var(--heading2);
+}
+
+.heading3 {
+	font-size: var(--heading3);
+}
+
+.heading4 {
+	font-size: var(--heading4);
+}
+
+.text {
+	font-size: 1.1rem;
+}

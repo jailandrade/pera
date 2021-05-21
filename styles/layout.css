@@ -1,0 +1,14 @@
+
+body {
+	font-size: calc(2 * var(--font-size));
+	font-family: var(--fonts-sans-serif);
+	line-height: calc(2 * var(--padding));
+	color: var(--color-smoky-black);
+	background-color: var(--color-white-smoke);
+}
+
+.page {
+	width: 80%;
+	margin: 0 auto;
+}
+

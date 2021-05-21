@@ -1,0 +1,44 @@
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+  }
+}
+
+@supports not (display: grid) {
+  .gallery {
+    display: block;
+  }
+
+	.gallery .item,
+	.gallery div {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: var(--margin);
+	}
+
+	.gallery .item:last-child,
+	.gallery div:last-child {
+		margin-right: 0;
+	}
+}
+
+/* Grid rules */
+
+.grid {
+	display: grid;
+}
+
+.col-3 {
+	grid-template-columns: repeat(3, 1fr);
+	gap: var(--padding);
+}
+
+.col-4 {
+	grid-template-columns: repeat(4, 1fr);
+	gap: var(--padding);
+}
+
+.col-6 {
+	grid-template-columns: repeat(6, 1fr);
+	gap: var(--padding);
+}

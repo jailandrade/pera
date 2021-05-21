@@ -1,0 +1,29 @@
+/* Card's components */
+
+.card {
+	margin: var(--margin-card);
+	padding: var(--padding-card);
+	background-color: var(--color-white);
+	border-radius: var(--corner);
+	box-shadow: calc(2 * var(--shadow2));
+	border-color: var(--border-color2);
+}
+
+
+/*@TODO:  Investigate about selectors to use here*/
+.card-thumbnail {
+	margin: 0;
+}
+
+.card-header {
+	padding: 0 calc(1.25 * var(--padding-card));
+	border-bottom: 0.1rem solid var(--border-color1);
+}
+
+.card-footer {
+	border-top: 0.1rem solid var(--border-color1);
+}
+
+.card-content {
+
+}

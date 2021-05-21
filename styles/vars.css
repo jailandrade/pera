@@ -30,7 +30,6 @@
 	--color-white: #fff;
 
 	/**
-	
 	--color-primary: ;
 	--color-secondary: ;
 	--color-terciary: ;
@@ -39,13 +38,12 @@
 	--color-secondary--opacity: ;
 	--color-terciary--opacity: ;
 	
-	
-	
 	*/
 
 	--border-color1: #cbcbcb;
 	--border-color2: #9a9a9a;
 	--border-color3: #424242;
+	--border-color4: #232323;
 
 	/* Used for box-shadow */
 	--shadow1: 0px 2px 4px rgba(55, 55, 55, 0.1);

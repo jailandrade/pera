@@ -1,0 +1,58 @@
+/* Styles for articles */
+.article {
+	margin: var(--margin-article);
+	padding: var(--padding-article);
+	background-color: var(--color-white);
+	border-radius: var(--corner);
+	box-shadow: var(--shadow2);
+}
+
+.article-title {
+	text-align: center;
+	margin-bottom: calc(4 * var(--margin));
+}
+
+.article-content {
+}
+
+.article-footer {
+	text-align: center;
+}
+
+.article-thumbnail {
+
+}
+
+.article-preview {
+
+}
+
+
+.article--left .article-container{
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: var(--padding)
+}
+
+.article--right .article-container{
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	gap: var(--padding)
+}
+
+.article--center .article-container {
+	display: grid;
+	grid-template-columns: 200px 1fr 200px;
+	gap: var(--padding);
+}
+
+
+.article--two-columns .article-content {
+	display: block;
+	columns: 2;
+}
+
+.article--columns .article-content {
+	display: initial;
+	columns: var(--columns-default);
+}
