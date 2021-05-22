@@ -1,0 +1,5 @@
+.hero {
+	min-height: 10rem;
+	background-color: var(--hero-background);
+	padding: calc(var(--padding)*4);
+}

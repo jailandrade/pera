@@ -52,6 +52,9 @@
 	--shadow4: 0px 16px 24px rgba(55, 55, 55, 0.1);
 	--shadow5: 0px 24px 32px rgba(55, 55, 55, 0.1);
 
+	--hero-background: #cbcbcb;
+
+	--lists-offset: 2rem;
 
 	--tag-background: #7fffd4;
 	--tag-border: #89cff0;
