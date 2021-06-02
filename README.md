@@ -51,15 +51,19 @@ In honor to my grandma.
 
 The Article component follows this convention: 
 
+```
 -- container (if had sidebars or nav)
 ---- content
 ------ inner (if had aditional elements inside the content)
+```
 
 ### Card
 
+```
 -- container (if had thumbnail)
 ---- content
 ------ inner (if had aditional elements inside the content)
+```
 
 ### Form
 
@@ -73,4 +77,4 @@ The Article component follows this convention:
 ### Links
 
 
-### Botones
+### Buttons
